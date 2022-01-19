@@ -1,6 +1,6 @@
 # Trabalho Prático Módulo 1 Bootcamp - IGTI/BancoPan
 
-Aplicação crianda utilizando: HTML, CSS e JavaScript.
+Aplicação criada utilizando: HTML, CSS e JavaScript.
 
 Simulador de financiamento baseado no sistema de amortizações constantes (SAC).
 
