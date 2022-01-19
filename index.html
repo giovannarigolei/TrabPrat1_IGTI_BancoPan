@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Simulação Banco Pan </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+    </header>
+    <h3>Bootcamp | Banco Pan</h3>
+    <h1>Simulação - Financiamento SAC - Banco Pan</h1>
+      <span class="bloco1" id="borda1">Valor (Em Reais)</span>
+      <span class="bloco1"id="borda5">Prazo (Anos)</span>
+        <span class="bloco1" id="borda2">Juros (Ao Ano)</span>
+          <span class="interativo" id="bordacinza1"><input type="number" value="200000" id="valor"/></span>
+          <span class="interativo" ><input type="number" value="20" id="prazo"/></span>
+          <span class="interativo" id="bordacinza2"><input type="number" value="0.08" id="juros"/></span>
+
+    <div><button class="simular" onclick="calcular()">Simular</button></div>
+    
+    <h2>Resultado</h2>
+      <span class="bloco2" id="borda3">Prazo (Meses):</span>
+      <span class="bloco2">Juros (Ao Mês):</span>
+      <span class="bloco2" id="borda4">Juros (Total)</span>
+            <span class="resultado" id="bordacinza3"><input id="meses" type="number" readonly /></span>
+            <span class="resultado" ><input id="jurosam" type="number" readonly /></span>
+            <span class="resultado" id="bordacinza4"><input id="jurostotal" type="number" readonly /></span>
+    <h2>Primeiras Prestações</h2>
+  <table class="tabela">
+    <thead>
+      <tr>
+        <th>Prestação</th>
+        <th>Amortização</th>
+        <th>Juros</th>
+        <th>Total</th>
+      </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      
+      </tr>
+      <tr>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </tbody>
+  </table>
+  <footer>
+   <div class="footer-area">
+   </div>
+ </footer>
+ 
+ <script src="script.js"></script>
+  </body>
+</html>
